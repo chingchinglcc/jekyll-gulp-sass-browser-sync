@@ -1,3 +1,37 @@
+h1, .sidebar-about h1 a {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase; }
+
+h2, h3 {
+  font-family: "Lora", serif;
+  font-weight: 700; }
+
+h2 {
+  text-transform: capitalize; }
+
+p, span, a {
+  font-family: "Montserrat", sans-serif; }
+
+.sidebar__list li {
+  padding-top: .15rem;
+  padding-bottom: .15rem;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  font-weight: 600; }
+
+a {
+  text-decoration: none; }
+
+ul {
+  padding-left: 0; }
+
+ul li {
+  list-style: none; }
+
+*, *::before, *::after {
+  box-sizing: border-box; }
+
 .sidebar {
   text-align: center;
   padding: 2rem 1rem;
@@ -10,12 +44,19 @@
     top: 0;
     left: 0;
     bottom: 0;
-    width: 18rem;
+    width: 20rem;
     text-align: left; } }
 
 /* Sidebar links */
 .sidebar a {
-  color: #fff; }
+  color: #f7f7f7; }
+
+nav ul li a:hover {
+  color: #596784; }
+
+.sidebar__list li {
+  padding-top: .15rem;
+  padding-bottom: .15rem; }
 
 /* About section */
 .sidebar-about h1 {

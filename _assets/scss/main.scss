@@ -1,17 +1,37 @@
 
 //----------------------------------------------   
 //  Fonts:      Fonts, awesome icons
-//  Tools:      variables, extends, mixins
-//  Setting:    General Style Setting
+//  Settings:   General Style Setting
 //  Layouts:    Main layouts
 //  Components: Useable components 
-//  Units:      Variable and Mixins
+//  Units:      Variable, extends, mixins
 //---------------------------------------------- 
+
 
 //----------------------------------------------
 // Fonts
 //---------------------------------------------- 
+@import 'fonts/_typo.scss';
 
+
+//----------------------------------------------
+// Settings
+//---------------------------------------------- 
+@import 'settings/_links.scss';
+@import 'settings/_model.scss';
+@import 'settings/_colors.scss';
+
+//----------------------------------------------
+// Layouts
+//---------------------------------------------- 
+
+//----------------------------------------------
+// Components
+//---------------------------------------------- 
 
 @import 'components/_sidebar.scss';
+
+
+
+
 

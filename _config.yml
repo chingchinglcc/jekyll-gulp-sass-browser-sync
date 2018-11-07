@@ -15,6 +15,9 @@ paginate: 12
 paginate_path: "/page/:num"
 permalink: /:year/:month/:day/:title/
 
+# Sidebar
+sidebar_title: I AM CCL
+
 social:
   - name: twitter
     url: https://twitter.com/chingchinglcc

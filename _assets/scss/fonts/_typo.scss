@@ -1,0 +1,41 @@
+
+
+$lora: 'Lora', serif;
+$lora--fw-1: 400;
+$lora--fw-2: 700;
+
+
+$montserrat: 'Montserrat', sans-serif;
+$mont--fw-1: 400;
+$mont--fw-2: 600;
+$mont--fw-3: 800;
+
+h1, .sidebar-about h1 a {
+    font-family: $montserrat;
+    font-weight: $mont--fw-2;
+    text-transform: uppercase;
+}
+
+h2, h3 {
+    font-family: $lora;
+    font-weight: $lora--fw-2;
+}
+
+h2 {
+    text-transform: capitalize;
+}
+
+p, span, a {
+    font-family: $montserrat;
+    // font-weight: $lora--fw-1;
+}
+
+.sidebar__list {
+    li {
+      padding-top: .15rem;
+      padding-bottom: .15rem;
+      font-size: 2.5rem;
+      text-transform: uppercase;
+      font-weight: $mont--fw-2;
+    }
+}

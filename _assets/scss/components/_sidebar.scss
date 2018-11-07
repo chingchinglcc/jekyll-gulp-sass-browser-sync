@@ -1,8 +1,8 @@
 .sidebar {
     text-align: center;
     padding: 2rem 1rem;
-    color: rgba(255,255,255,.5);
-    background-color: #202020;
+    color: $grey--1;
+    background-color: $black--1;
   }
   @media (min-width: 48em) {
     .sidebar {
@@ -10,14 +10,26 @@
       top: 0;
       left: 0;
       bottom: 0;
-      width: 18rem;
+      width: 20rem;
       text-align: left;
     }
   }
   
   /* Sidebar links */
   .sidebar a {
-    color: #fff;
+    color: $white--2;
+
+  }
+
+  nav ul li a:hover {
+    color: $blue--1;
+  }
+
+  .sidebar__list {
+      li {
+        padding-top: .15rem;
+        padding-bottom: .15rem;
+      }
   }
   
   /* About section */
