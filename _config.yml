@@ -1,4 +1,63 @@
-name: Your New Jekyll Site
-markdown: redcarpet
-highlighter: pygments # or rouge or null
-exclude: ["node_modules", "gulpfile.js", "package.json"]
+# Dependencies
+markdown: kramdown
+
+# Permalinks
+permalink: /:year/:month/:day/:title/
+
+# Site intro
+title: CHING CHING
+tagline: 'Front End Developer'
+description: 'I am Ching Ching Lee, I do websites.'
+url: http://chingchinglee.com
+
+baseurl: ""
+paginate: 12
+paginate_path: "/page/:num"
+permalink: /:year/:month/:day/:title/
+
+social:
+  - name: twitter
+    url: https://twitter.com/chingchinglcc
+  - name: instagram
+    url: https://www.instagram.com/the_diary_of_allison
+  - name: linkedin
+    url: https://www.linkedin.com/in/ching-ching-lee-235551a5/
+  - name: github
+    url: https://github.com/chingchinglcc/
+  - name: codepen
+    url: https://codepen.io/allisonching/
+
+
+plugins:
+- jekyll-paginate
+- jekyll-sitemap
+
+exclude:
+- node_modules
+- Gemfile
+- Gemfile.lock
+- gulpfile.js
+- package.json
+- README.md
+
+# Navigation
+docs:
+- title: Projects
+  url: /projects
+
+- title: About
+  url: /About
+
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /projects/:title/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: project
