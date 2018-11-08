@@ -32,6 +32,12 @@ ul li {
 *, *::before, *::after {
   box-sizing: border-box; }
 
+body {
+  margin: 0; }
+
+#home .home-link {
+  color: #425381; }
+
 .sidebar {
   text-align: center;
   padding: 2rem 1rem;
