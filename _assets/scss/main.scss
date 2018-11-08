@@ -1,12 +1,17 @@
 
 //----------------------------------------------   
-//  Fonts:      Fonts, awesome icons
+//  Fonts:      Fonts
 //  Settings:   General Style Setting
 //  Layouts:    Main layouts
-//  Components: Useable components 
-//  Units:      Variable, extends, mixins
+//  Components: reuseable components 
+//  Variable: Color, font-size, spacing
 //---------------------------------------------- 
 
+
+//----------------------------------------------
+// Variables
+//---------------------------------------------- 
+@import 'variables/_colors.scss';
 
 //----------------------------------------------
 // Fonts
@@ -19,16 +24,17 @@
 //---------------------------------------------- 
 @import 'settings/_links.scss';
 @import 'settings/_model.scss';
-@import 'settings/_colors.scss';
 
 //----------------------------------------------
-// Layouts
+// Moduls
 //---------------------------------------------- 
+@import 'modules/_breakpoint.scss';
+@import 'modules/_flexbox.scss';
+@import 'modules/_tools.scss';
 
 //----------------------------------------------
 // Components
 //---------------------------------------------- 
-
 @import 'components/_sidebar.scss';
 
 
