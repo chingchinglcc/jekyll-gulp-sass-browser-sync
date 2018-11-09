@@ -1,0 +1,25 @@
+---
+layout: default
+---
+<section class="post">
+  <div>
+    <div class="post__header section-padding--double">
+      <div class="grid-small">
+        <h2>{{ page.title }}</h2>
+        {% if page.description %}
+          <p>{{ page.description }}</p>
+        {% endif %}
+        <p></p>
+      </div>
+    </div>
+
+
+    <div class="post__content section-padding">
+      <div class="grid">
+        <div id="markdown">
+          {{content}}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

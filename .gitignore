@@ -1,3 +1,9 @@
 _site
 .idea
 node_modules
+_layouts/page.html
+_layouts/project.html
+_layouts/projects.html
+_project-ahieve/project-placeholder-01.md
+_project-ahieve/project-placeholder-02.md
+_project-ahieve/project-placeholder-03.md
